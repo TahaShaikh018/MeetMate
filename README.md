@@ -48,7 +48,7 @@ MeetMate/
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone or Download the Repository
-git clone https://github.com/your-username/MeetMate.git
+git clone https://github.com/TahaShaikh018/MeetMate.git
 cd MeetMate
 
 OR download the repository as a ZIP file and extract it.
