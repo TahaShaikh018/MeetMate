@@ -30,18 +30,23 @@ manual note-taking during meetings.
 
 ## 📂 Project Structure
 MeetMate/
-│
-├── app.py                 # Main entry point
-├── requirements.txt       # Project dependencies
-├── README.md
+├── app.py                  # Main entry point
+├── requirements.txt        # Project dependencies
+├── README.md               # Project documentation
 │
 ├── src/
-│   ├── transcribe.py      # Audio → Text
-│   ├── summarize.py       # Text → Summary
-│   ├── send_email.py      # Email sender
-│   ├── bot.py             # Workflow controller
-│   ├── .env.example
-│   └── credentials.example.json
+│   ├── bot.py              # Workflow controller
+│   ├── transcribe.py       # Audio → Text (Google Speech-to-Text)
+│   ├── summarize.py        # Text → Summary
+│   ├── send_email.py       # Email sender
+│   ├── .env.example        # Example environment variables
+│   └── credentials.example.json  # Example Google credentials file
+│
+├── audio/                  # User-provided meeting audio (not uploaded)
+│   └── .gitkeep
+│
+└── outputs/                # Generated summaries (ignored in GitHub)
+
 
 ---
 
